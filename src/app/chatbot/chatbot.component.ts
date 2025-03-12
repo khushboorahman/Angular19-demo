@@ -19,7 +19,8 @@ import { IConversationMessage } from '../interfaces/conversation-message';
   styleUrl: './chatbot.component.scss'
 })
 export class ChatbotComponent implements OnInit {
-
+  
+  title: any = 'Angular Chatbot Example';
   public messages: IConversationMessage[] = [];
   chatboxOpen: boolean = true;
 
