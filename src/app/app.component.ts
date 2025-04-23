@@ -3,7 +3,6 @@ import { RouterOutlet } from '@angular/router';
 import { UserComponent } from './components/user/user.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { EmployeesComponent } from './components/employees/employees.component';
-import { ChatbotComponent } from './chatbot/chatbot.component';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +10,7 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
     RouterOutlet,
     UserComponent, 
     AdminComponent,
-    EmployeesComponent,
-    ChatbotComponent
+    EmployeesComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
